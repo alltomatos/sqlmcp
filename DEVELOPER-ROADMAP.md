@@ -16,8 +16,8 @@ Este roadmap documenta o plano de fatiamento técnico e as Epics do projeto SQLM
 ### Slices Planejadas
 
 #### Epic E01: Fundação do Core e Abstração Multi-Dialeto
-- [**#6 - S01.1: Estruturar connection pool híbrido com sync.Map e suporte dinâmico**](https://github.com/alltomatos/sqlmcp/issues/6) - `in_progress`
-- [**#7 - S01.2: Implementar adaptador PostgreSQL (pgx/v5) para Dialect**](https://github.com/alltomatos/sqlmcp/issues/7) - `todo`
+- [x] [**#6 - S01.1: Estruturar connection pool híbrido com sync.Map e suporte dinâmico**](https://github.com/alltomatos/sqlmcp/issues/6) - `done`
+- [**#7 - S01.2: Implementar adaptador PostgreSQL (pgx/v5) para Dialect**](https://github.com/alltomatos/sqlmcp/issues/7) - `in_progress`
 - [**#8 - S01.3: Implementar adaptador MySQL para Dialect**](https://github.com/alltomatos/sqlmcp/issues/8) - `todo`
 - [**#9 - S01.4: Implementar adaptador Microsoft SQL Server para Dialect**](https://github.com/alltomatos/sqlmcp/issues/9) - `todo`
 
