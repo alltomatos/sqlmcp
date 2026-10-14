@@ -1,0 +1,29 @@
+# Binários e executáveis compilados
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Diretórios de build e testes
+*.out
+*.test
+*.prof
+
+# Arquivos temporários e cache DuckDB/Parquet
+tmp/
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*~
