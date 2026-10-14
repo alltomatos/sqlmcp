@@ -8,9 +8,7 @@ Este roadmap documenta o plano de fatiamento técnico e as Epics do projeto SQLM
 - [x] [**[E02] Camada de Segurança Read-Only e Guardrails de Contexto**](https://github.com/alltomatos/sqlmcp/issues/2) - `done`
 - [x] [**[E03] Ferramentas MCP de Catálogo, Grafo de Relacionamentos e Mermaid ERD**](https://github.com/alltomatos/sqlmcp/issues/3) - `done`
 - [x] [**[E04] Camada Analítica Acelerada com DuckDB e Parquet**](https://github.com/alltomatos/sqlmcp/issues/4) - `done`
-- [**[E05] Servidor MCP (Stdio/SSE) e Pacote Go Vendorizável**](https://github.com/alltomatos/sqlmcp/issues/5) - `in_progress`
-- [**[E04] Camada Analítica Acelerada com DuckDB e Parquet**](https://github.com/alltomatos/sqlmcp/issues/4) - `todo`
-- [**[E05] Servidor MCP (Stdio/SSE) e Pacote Go Vendorizável**](https://github.com/alltomatos/sqlmcp/issues/5) - `todo`
+- [x] [**[E05] Servidor MCP (Stdio/SSE) e Pacote Go Vendorizável**](https://github.com/alltomatos/sqlmcp/issues/5) - `done`
 - **[E06] Governança de Agente: Skill dba-fullstack** - `done`
 
 ---
