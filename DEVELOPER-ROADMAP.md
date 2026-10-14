@@ -4,11 +4,11 @@ Este roadmap documenta o plano de fatiamento técnico e as Epics do projeto SQLM
 
 ## Epics
 
-- **[E01] Fundação do Core e Abstração Multi-Dialeto (PG, MySQL, MSSQL)** - `todo`
-- **[E02] Camada de Segurança Read-Only e Guardrails de Contexto** - `todo`
-- **[E03] Ferramentas MCP de Catálogo, Grafo de Relacionamentos e Mermaid ERD** - `todo`
-- **[E04] Camada Analítica Acelerada com DuckDB e Parquet** - `todo`
-- **[E05] Servidor MCP (Stdio/SSE) e Pacote Go Vendorizável** - `todo`
+- [**[E01] Fundação do Core e Abstração Multi-Dialeto (PG, MySQL, MSSQL)**](https://github.com/alltomatos/sqlmcp/issues/1) - `in_progress`
+- [**[E02] Camada de Segurança Read-Only e Guardrails de Contexto**](https://github.com/alltomatos/sqlmcp/issues/2) - `todo`
+- [**[E03] Ferramentas MCP de Catálogo, Grafo de Relacionamentos e Mermaid ERD**](https://github.com/alltomatos/sqlmcp/issues/3) - `todo`
+- [**[E04] Camada Analítica Acelerada com DuckDB e Parquet**](https://github.com/alltomatos/sqlmcp/issues/4) - `todo`
+- [**[E05] Servidor MCP (Stdio/SSE) e Pacote Go Vendorizável**](https://github.com/alltomatos/sqlmcp/issues/5) - `todo`
 - **[E06] Governança de Agente: Skill dba-fullstack** - `done`
 
 ---
@@ -16,10 +16,10 @@ Este roadmap documenta o plano de fatiamento técnico e as Epics do projeto SQLM
 ### Slices Planejadas
 
 #### Epic E01: Fundação do Core e Abstração Multi-Dialeto
-- **S01.1:** Estruturar `go.mod`, contratos `Dialect` e connection pool híbrido (`sync.Map` para perfis estáticos e dinâmicos).
-- **S01.2:** Implementar adaptador PostgreSQL (`pgx/v5`).
-- **S01.3:** Implementar adaptador MySQL (`go-sql-driver/mysql`).
-- **S01.4:** Implementar adaptador SQL Server (`go-mssqldb`).
+- [**#6 - S01.1: Estruturar connection pool híbrido com sync.Map e suporte dinâmico**](https://github.com/alltomatos/sqlmcp/issues/6) - `in_progress`
+- [**#7 - S01.2: Implementar adaptador PostgreSQL (pgx/v5) para Dialect**](https://github.com/alltomatos/sqlmcp/issues/7) - `todo`
+- [**#8 - S01.3: Implementar adaptador MySQL para Dialect**](https://github.com/alltomatos/sqlmcp/issues/8) - `todo`
+- [**#9 - S01.4: Implementar adaptador Microsoft SQL Server para Dialect**](https://github.com/alltomatos/sqlmcp/issues/9) - `todo`
 
 #### Epic E02: Camada de Segurança Read-Only e Guardrails de Contexto
 - **S02.1:** Validador AST léxico de queries para bloqueio de DML/DDL/múltiplos statements.
